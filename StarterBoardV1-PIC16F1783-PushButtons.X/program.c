@@ -44,6 +44,7 @@ void programInitialize(void) {
     D6_Pin = 0;
     D7_Pin = 0;
     
+    // Pin for push button
     TRISAbits.TRISA1 = 1;
     TRISAbits.TRISA2 = 1;
     TRISAbits.TRISA3 = 1;
